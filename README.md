@@ -20,6 +20,7 @@ Active Directory home lab on Windows Server 2025 using UTM virtual machine for A
 <img width="2906" height="1000" alt="image" src="https://github.com/user-attachments/assets/bc6f3c9e-3a5b-4740-8c0f-334c30caba6a" />
 9. Created three Group Object Policies for Corporate-HQ OU, a screen lock policy, a USB restriction policy and a control panel restriction policy. In this lab WMI filters were not used.
 
+
 Screen lock policy: Forces the screensaver to activate after 10 minutes, and this forces the screen to lock, requiring the user log in again to prevent unauthorized access. 
 
 USB Restriction policy: Disables USB storage devices to prevent standard users from copying sensitive data or introducing malware. 
